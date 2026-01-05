@@ -1,0 +1,17 @@
+// Animal.h
+
+#pragma once
+
+class Animal
+{
+public:
+	Animal(int InAge);
+
+	~Animal();
+
+	int GetAge() const;
+
+private:
+	int Age;
+
+};

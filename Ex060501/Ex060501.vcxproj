@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bec068eb-b919-41b0-82ac-45498d7f7dac}</ProjectGuid>
-    <RootNamespace>Ex060101</RootNamespace>
+    <ProjectGuid>{ae4fffef-8306-46f8-91b0-c6c86a75e6b7}</ProjectGuid>
+    <RootNamespace>Ex060501</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -125,7 +125,7 @@
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Cat.cpp" />
-    <ClCompile Include="Ex060101.cpp" />
+    <ClCompile Include="Ex060501.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
