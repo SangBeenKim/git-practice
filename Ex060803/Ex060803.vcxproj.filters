@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ex060101.cpp">
+    <ClCompile Include="Ex060803.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IWalkable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Animal.cpp">
@@ -26,6 +29,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IWalkable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Animal.h">
       <Filter>Header Files</Filter>
     </ClInclude>

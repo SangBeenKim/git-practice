@@ -92,3 +92,7 @@ global_rules.md
 .claudeignore
 .claude/settings.local.json
 /.claude
+
+# 빌드 결과물 폴더
+x64/
+x86/

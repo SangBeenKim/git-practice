@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bec068eb-b919-41b0-82ac-45498d7f7dac}</ProjectGuid>
-    <RootNamespace>Ex060101</RootNamespace>
+    <ProjectGuid>{87b7bd66-afcc-460b-be5f-7caae5634ac6}</ProjectGuid>
+    <RootNamespace>Ex060803</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -125,11 +125,13 @@
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Cat.cpp" />
-    <ClCompile Include="Ex060101.cpp" />
+    <ClCompile Include="Ex060803.cpp" />
+    <ClCompile Include="IWalkable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
     <ClInclude Include="Cat.h" />
+    <ClInclude Include="IWalkable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
